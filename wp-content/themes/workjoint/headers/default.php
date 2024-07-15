@@ -7,7 +7,7 @@
                         <div class="logo-in-theme">
                             <div class="logo logo-theme">
                                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" >
-                                    <img src="<?php echo esc_url( get_template_directory_uri().'/images/logo.svg'); ?>" alt="<?php bloginfo( 'name' ); ?>">
+                                    <img src="<?php echo esc_url( get_template_directory_uri().'/images/header-logo.svg'); ?>" alt="<?php bloginfo( 'name' ); ?>">
                                 </a>
                             </div>
                         </div>
