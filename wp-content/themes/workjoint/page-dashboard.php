@@ -24,7 +24,7 @@ global $post;
 		<?php freeio_display_sidebar_left( $sidebar_configs ); ?>
 		<div id="main-content" class="main-page <?php echo esc_attr($sidebar_configs['main']['class']); ?>">
 			<div id="main" class="site-main clearfix" role="main">
-
+                   innner navigation start here
 				<?php
 				// Start the loop.
 				while ( have_posts() ) : the_post();
