@@ -25,7 +25,7 @@ global $post;
 										<?php
 											
 											$allowed_html_array = array( 'a' => array('href' => array()) );
-											echo wp_kses(sprintf(__('&copy; %s - Freeio. All Rights Reserved. <br/> Powered by <a href="//themeforest.net/user/apustheme">ApusTheme</a>', 'freeio'), date("Y")), $allowed_html_array);
+											echo wp_kses(sprintf(__('&copy; %s - WorkJoint. All Rights Reserved. <br/> Creted by <a href="https://www.agency.byparticular.com/">Particular Agency</a>', 'freeio'), date("Y")), $allowed_html_array);
 										?>
 
 									</div>
